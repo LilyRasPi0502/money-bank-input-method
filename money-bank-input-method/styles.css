@@ -1,0 +1,40 @@
+ .BankinputerPanelBG{
+  color: #fff;
+  background: #222;
+  border-radius: 20px;
+ }
+ .BankinputerPanel{
+  margin: 10px;
+  display: inline-block;
+ }
+ .PassWordIndicator{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 15px solid white;
+ }
+.InputerPanel{
+  position: absolute;
+}
+.InputerDisplayPanel{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@font-face {
+  font-family: 'InputerDisplay';
+  src: url('Cubic_11.ttf');
+}
+.InputerDisplay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dd5;
+  color: #222;
+  font-family: InputerDisplay;
+  font-size: 32px;
+  margin: 1px;
+}
